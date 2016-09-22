@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Aleo";
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header-logo {
+    font-family: "WC Mano Negra Bta";
+    font-size: 40pt;
+    letter-spacing: -5px;
+}
+
+.header-logo-word {
+    color: #3a3a3a;
+}
+
+.header-logo-dots {
+    color: #f34949;
+    margin-left: 5px;
+}
+
+.header-menu {
+    font-weight: normal;
+    font-size: 14pt;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-menu a {
+    text-decoration: none;
+    color: #3b3b3b;
+}
+
+
+
+.caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    height: 570px;
+    background-image: url(images/1stBackground.jpg);
+    background-repeat: no-repeat;
+    background-position-y: 35%;
+    background-size: cover;
+    opacity: 0.8;
+    box-shadow: 0 0 0 300px rgba(0, 0, 0, 0.5) inset;
+    border-bottom: solid 4px #f34949;
+}
+
+.line {
+    background-color: #ffffff;
+    height: 1px;
+    width: 40px;
+    margin: 0 25px;
+}
+
+.caption-header {
+    font-family: "WC Mano Negra Bta";
+    font-size: 100pt;
+}
+
+.caption-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+    font-size: 16pt;
+}
+
+
+
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 20pt;
+    margin: 0 auto;
+    color: #ffffff;
+    width: 88%;
+}
+
+.menu-title {
+    font-size: 20pt;
+    margin: 0 auto;
+    background-color: #f34949;
+    width: 15%;
+    text-align: center;
+}
+
+.menu-units {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu-units .col {
+    flex: 1 1 auto;
+    margin: 0 3%;
+}
+
+.menu-unit {
+    margin: 45px 0;
+}
+
+.menu-unit-info {
+    color: #555555;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-unit-info-name {
+    font-size: 12pt;
+    flex: 1 1 auto;
+}
+
+.menu-unit-info-line {
+    background-color: #b7b7b7;
+    flex: 10 1 auto;
+    height: 1px;
+}
+
+.menu-unit-info-coast {
+    font-size: 16pt;
+    flex: 1 1 auto;
+    text-align: end;
+}
+
+.menu-unit-contents {
+    color: #b7b7b7;
+    font-size: 12pt;
+}
+
+.menu-btn {
+    text-align: center;
+}
+
+.menu-load {
+    font-size: 14pt;
+    color: #b7b7b7;
+    background-color: #ffffff;
+    border : solid 1px #b7b7b7;
+    border-radius: 2px;
+    width: 135px;
+}
+
+.sep {}
+
+
+
+.dishes {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.dishes-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #3b3b3b;
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+.dishes-title-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dishes-title-line {}
+
+.dishes-slideshow {
+    width: 5%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle {
+    background-color: #b7b7b7;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+
+.circle.active {}
+
+.dishes-food {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dishes-food-unit {}
+
+.dishes-food-unit-photo {}
+
+.dishes-food-unit-info {}
+
+.dishes-food-unit-info-name {}
+
+.dishes-food-unit-info-coast {}
+
+.dishes-food-unit-ratio {}
+
+.dishes-food-unit-ratio .active {}
+
+
