@@ -2,6 +2,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Aleo";
+    background-image: url("images/Resto.jpg");
+    background-size: cover;
 }
 
 .header {
@@ -309,16 +311,24 @@ body {
 
 .footer {
     background-color: #3b3b3b;
+    color: #ffffff;
+    padding: 60px 0;
+}
+
+.footer-blocks {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
+    justify-content: space-between;
+    width: 80%;
     margin: 0 auto;
-    color: #ffffff;
 }
 
 .NY-rest {
     font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
 }
 
 .NY-rest-title {
@@ -335,6 +345,10 @@ body {
 
 .france-rest {
     font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
 }
 
 .france-rest-title {
@@ -349,17 +363,41 @@ body {
     font-weight: bold;
 }
 
-.footer-links {}
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
-.footer-links a {}
+.footer-links a {
+    text-decoration: none;
+    color: #ffffff;
+}
 
-.footer-rights {}
+.footer-rights {
+    font-weight: lighter;
+}
 
-.footer-rights-logo {}
+.footer-rights-logo {
+    font-family: "WC Mano Negra Bta";
+    font-size: 16pt;
+    letter-spacing: -2px;
+}
+
+.footer-logo-text {}
+
+.footer-logo-dots {
+    color: #f34949;
+    margin-left: 5px;
+}
 
 .footer-rights-text {}
 
 .footer-rights-more {}
 
-.footer-rights-more a {}
+.footer-rights-more a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+}
 
