@@ -2,42 +2,42 @@
     font-family: 'Aleo Light';
     font-style: normal;
     font-weight: normal;
-    src: local('Aleo Light'), url('fonts/aleo/Aleo-Light.woff') format('woff');
+    src: local('Aleo Light'), url('../fonts/aleo/Aleo-Light.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Aleo Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Aleo Regular'), url('fonts/aleo/Aleo-Regular.woff') format('woff');
+    src: local('Aleo Regular'), url('../fonts/aleo/Aleo-Regular.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Aleo Bold';
     font-style: normal;
     font-weight: normal;
-    src: local('Aleo Bold'), url('fonts/aleo/Aleo-Bold.woff') format('woff');
+    src: local('Aleo Bold'), url('../fonts/aleo/Aleo-Bold.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Aleo Bold Italic';
     font-style: normal;
     font-weight: normal;
-    src: local('Aleo Bold Italic'), url('fonts/aleo/Aleo-BoldItalic.woff') format('woff');
+    src: local('Aleo Bold Italic'), url('../fonts/aleo/Aleo-BoldItalic.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Aleo Italic';
     font-style: normal;
     font-weight: normal;
-    src: local('Aleo Italic'), url('fonts/aleo/Aleo-Italic.woff') format('woff');
+    src: local('Aleo Italic'), url('../fonts/aleo/Aleo-Italic.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Aleo Light Italic';
     font-style: normal;
     font-weight: normal;
-    src: local('Aleo Light Italic'), url('fonts/aleo/Aleo-LightItalic.woff') format('woff');
+    src: local('Aleo Light Italic'), url('../fonts/aleo/Aleo-LightItalic.woff') format('woff');
 }
 
 
@@ -46,14 +46,14 @@
     font-family: 'WC Mano Negra Bta';
     font-style: normal;
     font-weight: normal;
-    src: local('WC Mano Negra Bta'), url('fonts/WCManoNegraBta/WCManoNegraBta.woff') format('woff');
+    src: local('WC Mano Negra Bta'), url('../fonts/WCManoNegraBta/WCManoNegraBta.woff') format('woff');
 }
 
 @font-face {
     font-family: 'WC Mano Negra Bta Bold';
     font-style: normal;
     font-weight: normal;
-    src: local('WC Mano Negra Bta Bold'), url('fonts/WCManoNegraBta/WCManoNegraBoldBta.woff') format('woff');
+    src: local('WC Mano Negra Bta Bold'), url('../fonts/WCManoNegraBta/WCManoNegraBoldBta.woff') format('woff');
 }
 
 
@@ -76,7 +76,7 @@ body {
 }
 
 .header-logo {
-    background: url("images/logo.png") no-repeat;
+    background: url("../images/logo.png") no-repeat;
     height: 28px;
     width: 81px;
 }
@@ -105,7 +105,7 @@ body {
     align-items: center;
     color: #ffffff;
     height: 570px;
-    background: url(images/1stBackground.jpg) no-repeat;
+    background: url(../images/1stBackground.jpg) no-repeat;
     background-position-y: 35%;
     background-size: cover;
     opacity: 0.8;
@@ -225,6 +225,12 @@ body {
     margin-top: 35px;
 }
 
+.menu-btn .arrow {
+    background-image: url("../images/arrow-down.png");
+    width: 10px;
+    height: 7px;
+}
+
 .menu-load {
     font-size: 14px;
     color: #b7b7b7;
@@ -306,6 +312,22 @@ body {
 
 .dishes-food-unit {}
 
+.dishes-food-unit-ratio {
+    display: flex;
+    flex-direction: row;
+}
+
+.dishes-food-unit-ratio .star {
+    background-image: url(../images/star.png);
+    height: 12px;
+    width: 12px;
+    margin-right: 5px;
+}
+
+.dishes-food-unit-ratio .star.active {
+    background-image: url("../images/star-active.png");
+}
+
 .dishes-food-unit-photo {
     width: 230px;
     height: 230px;
@@ -328,16 +350,6 @@ body {
 .dishes-food-unit-info-name {}
 
 .dishes-food-unit-info-coast {}
-
-.dishes-food-unit-ratio {
-    font-size: 12px;
-    color: rgb( 222, 222, 222 );
-}
-
-.dishes-food-unit-ratio .active {
-    color: rgb( 241, 223, 26 );
-}
-
 
 
 
@@ -481,7 +493,7 @@ body {
 .footer-rights {}
 
 .footer-rights-logo {
-    background-image: url("images/logo-white.png");
+    background-image: url("../images/logo-white.png");
     width: 81px;
     height: 28px;
 }
