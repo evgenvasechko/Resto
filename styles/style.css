@@ -209,16 +209,19 @@ body {
     flex: 1 1 auto;
 }
 
-.menu-unit-info-line {
-    background-color: #b7b7b7;
-    flex: 5 1 auto;
-    height: 1px;
-}
-
 .menu-unit-info-coast {
     font-size: 16px;
-    flex: 1 1 auto;
+    flex: 5 1 auto;
     text-align: end;
+}
+
+.menu-unit-info-coast:before {
+    content: "";
+    display: inline-block;
+    border-top: solid 1px #b7b7b7;
+    width: 80%;
+    vertical-align: middle;
+    margin: 0 20px 0 0;
 }
 
 .menu-unit-contents {
