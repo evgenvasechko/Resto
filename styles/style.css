@@ -129,18 +129,18 @@ body {
     letter-spacing: 1px;
 }
 
-.banner-subtitle::before {
+.banner-subtitle:before {
     content: "";
-    display: inline;
+    display: inline-block;
     background-color: #ffffff;
     height: 1px;
     width: 40px;
     margin: 0 25px;
 }
 
-.banner-subtitle::after {
+.banner-subtitle:after {
     content: "";
-    display: inline;
+    display: inline-block;
     background-color: #ffffff;
     height: 1px;
     width: 40px;
