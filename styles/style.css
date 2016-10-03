@@ -92,7 +92,7 @@ body {
     align-items: center;
 }
 
-.header-menu a {
+.header-menu-link {
     text-decoration: none;
     color: #3b3b3b;
 }
