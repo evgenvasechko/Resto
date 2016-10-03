@@ -99,7 +99,7 @@ body {
 
 
 
-.caption {
+.banner {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -121,13 +121,12 @@ body {
     margin: 0 25px;
 }
 
-.caption-header {
+.banner-title {
     font-family: 'WC Mano Negra Bta';
     font-size: 100px;
-    letter-spacing: -8px;
 }
 
-.caption-description {
+.banner-subtitle {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -135,6 +134,22 @@ body {
     font-family: 'Aleo Regular';
     font-size: 16px;
     letter-spacing: 1px;
+}
+
+.banner-subtitle::before {
+    display: inline;
+    background-color: #ffffff;
+    height: 1px;
+    width: 40px;
+    margin: 0 25px;
+}
+
+.banner-subtitle::after {
+    display: inline;
+    background-color: #ffffff;
+    height: 1px;
+    width: 40px;
+    margin: 0 25px;
 }
 
 
