@@ -76,6 +76,7 @@ body {
 }
 
 .header-logo {
+    display: inline-block;
     background: url("../images/logo.png") no-repeat;
     height: 28px;
     width: 81px;
@@ -493,6 +494,7 @@ body {
 .footer-rights {}
 
 .footer-rights-logo {
+    display: inline-block;
     background-image: url("../images/logo-white.png");
     width: 81px;
     height: 28px;
