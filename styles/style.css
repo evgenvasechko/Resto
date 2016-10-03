@@ -133,8 +133,7 @@ body {
 .banner-subtitle:after {
     content: "";
     display: inline-block;
-    background-color: #ffffff;
-    height: 1px;
+    border-top: solid 1px #ffffff;
     width: 40px;
     margin: 0 25px;
 }
