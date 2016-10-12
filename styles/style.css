@@ -158,17 +158,19 @@ body {
     position: relative;
     color: #ffffff;
     font-size: 20px;
+    width: 155px;
+    padding: 21px 0;
 }
 
 .menu-title:before {
     content: "";
-    border-left: solid 79px #f34949;
-    border-right: solid 80px #f34949;
+    border-left: solid 78px #f34949;
+    border-right: solid 77px #f34949;
     border-top: solid 0 transparent;
     border-bottom: solid 10px transparent;
     width: 0;
     height: 0;
-    margin: 35px auto;
+    margin: 45px -30px;
     position: absolute;
 }
 
