@@ -59,6 +59,47 @@
 
 
 
+.slideshow {
+    width: 69px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.circle {
+    background-color: #dedede;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+}
+.circle.active {
+    background-color: #9b9b9b;
+}
+
+
+
+
+
+.ratio {
+    display: flex;
+    flex-direction: row;
+}
+
+.ratio .star {
+    background-image: url(../images/star.png);
+    height: 12px;
+    width: 12px;
+    margin-right: 5px;
+}
+
+.ratio .star.active {
+    background-image: url("../images/star-active.png");
+}
+
+
+
+
 
 body {
     margin: 0;
@@ -275,37 +316,14 @@ body {
     letter-spacing: 1px;
 }
 
-.dishes-title-text {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.dishes-title-line {
-    background-color: #b7b7b7;
+.dishes-title-text:after {
+    content: "";
+    background-color: #e5e3e3;
     height: 1px;
     width: 200px;
-    margin-left: 18px;
-}
-
-.dishes-slideshow {
-    width: 69px;
-    height: 35px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.circle {
-    background-color: rgba(183, 183, 183, 0.57);
-    width: 9px;
-    height: 9px;
-    border-radius: 50%;
-}
-
-.circle.active {
-    background-color: #3b3b3b;
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .dishes-food {
@@ -314,46 +332,32 @@ body {
     justify-content: space-between;
 }
 
-.dishes-food-unit {}
-
-.dishes-food-unit-ratio {
-    display: flex;
-    flex-direction: row;
-}
-
-.dishes-food-unit-ratio .star {
-    background-image: url(../images/star.png);
-    height: 12px;
-    width: 12px;
-    margin-right: 5px;
-}
-
-.dishes-food-unit-ratio .star.active {
-    background-image: url("../images/star-active.png");
+.dishes-food-unit {
+    font-size: 16px;
+    font-family: 'Aleo Light';
+    letter-spacing: 1px;
+    color: #555555;
 }
 
 .dishes-food-unit-photo {
     width: 230px;
-    height: 230px;
+    height: 200px;
     overflow: hidden;
-
+    display: block;
 }
 
-.dishes-food-unit-info {
-    color: #555555;
-    font-weight: normal;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0 0 15px 0;
-    font-size: 16px;
-    font-family: 'Aleo Light';
-    letter-spacing: 1px;
+.dishes-food-unit-name {
+    width: 85%;
+    display: inline-block;
+    padding: 20px 0 10px 0;
 }
 
-.dishes-food-unit-info-name {}
-
-.dishes-food-unit-info-coast {}
+.dishes-food-unit-coast {
+    width: 11%;
+    max-width: 80px;
+    display: inline-block;
+    text-align: right;
+}
 
 
 
@@ -363,24 +367,21 @@ body {
 }
 
 .gallery-title {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
     color: #3b3b3b;
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 75px;
     letter-spacing: 2px;
     font-family: 'Aleo Bold';
 }
 
-.gallery-title-text {}
-
-.gallery-title-line {
-    background-color: #b7b7b7;
+.gallery-title:after {
+    content: "";
+    background-color: #e5e3e3;
     height: 1px;
-    width: 250px;
-    margin-left: 25px;
+    width: 200px;
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .gallery-photos {
