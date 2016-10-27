@@ -385,36 +385,27 @@ body {
 }
 
 .gallery-photos {
-    height: 543px;
+    height: 432px;
     overflow: hidden;
-    display: flex;
-    flex-direction: row;
-}
-
-.gallery-photos .large {
-    flex: 1 1 auto;
-    width: 40%;
-}
-
-.gallery-photos .large img {
-    height: 100%;
-}
-
-.gallery-photos .two-little {
-    flex: 2 1 auto;
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-}
-
-.gallery-photos .two-little .little-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
 }
 
 .gallery-photos img {
-    width: 100%;
+    width: 366px;
+    display: inline-block;
+    margin: 0 -2px 0 -2px;
+    vertical-align: top;
+}
+
+.gallery-photos .little {
+    height: 216px;
+}
+
+.gallery-photos .little.bottom1 {
+    margin: -216px 0 0 364px;
+}
+
+.gallery-photos .little.bottom2 {
+    margin: -234px 0 0 730px;
 }
 
 
