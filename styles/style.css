@@ -385,27 +385,13 @@ body {
 }
 
 .gallery-photos {
-    height: 432px;
     overflow: hidden;
 }
 
 .gallery-photos img {
-    width: 366px;
+    float: left;
     display: inline-block;
-    margin: 0 -2px 0 -2px;
     vertical-align: top;
-}
-
-.gallery-photos .little {
-    height: 216px;
-}
-
-.gallery-photos .little.bottom1 {
-    margin: -216px 0 0 364px;
-}
-
-.gallery-photos .little.bottom2 {
-    margin: -234px 0 0 730px;
 }
 
 
@@ -425,7 +411,7 @@ body {
     margin: 0 auto;
 }
 
-.NY-rest {
+.rest {
     font-size: 16px;
     display: flex;
     flex-direction: column;
@@ -434,39 +420,16 @@ body {
     letter-spacing: 1px;
 }
 
-.NY-rest-title {
+.rest-title {
     font-family: 'Aleo Regular';
 }
 
-.NY-rest-adr {
+.rest-adr {
     font-family: 'Aleo Light';
     margin-top: 10px;
 }
 
-.NY-rest-phone {
-    font-family: 'Aleo Bold';
-    margin-top: 10px;
-}
-
-.france-rest {
-    font-size: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100px;
-    letter-spacing: 1px;
-}
-
-.france-rest-title {
-    font-family: 'Aleo Regular';
-}
-
-.france-rest-adr {
-    font-family: 'Aleo Light';
-    margin-top: 10px;
-}
-
-.france-rest-phone {
+.rest-phone {
     font-family: 'Aleo Bold';
     margin-top: 10px;
 }
