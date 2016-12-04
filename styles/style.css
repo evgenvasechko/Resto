@@ -67,20 +67,24 @@
 }
 .star:checked ~ .rating{
 	background-image: url('../images/star.png');
-    margin: 0 4px 0 0;
+    margin-right: 4px;
 }
 .star:checked + .rating{
 	background-image: url('../images/star-active.png');
-    margin: 0 4px 0 0;
+    margin-right: 4px;
 }
 .rating {
+	background-image: url('../images/star-active.png');
 	display: inline-block;
     width: 13px;
     height: 13px;
 	background-repeat: no-repeat;
+    margin-right: 4px;
 }
 
-
+.hidden {
+    display: none;
+}
 
 
 
